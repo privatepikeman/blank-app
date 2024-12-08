@@ -8,7 +8,7 @@ st.set_page_config(page_title="AI Assistant")
 st.title("AI Assistant")
 
 # Create a text area for user input
-user_input = st.text_area("Enter your paragraph:", "", height=150)
+user_input = st.text_area("Enter your question:", "", height=150)
 
 # Add a button
 if st.button("Query"):
