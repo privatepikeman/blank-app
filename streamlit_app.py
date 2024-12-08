@@ -17,7 +17,7 @@ if st.button("Query"):
         try:
             # Perform the GET request
             response = requests.get(
-                "https://tender-eagle-19.hooks.n8n.cloud/webhook/1c5a3ba4-8b0b-40b5-ad63-6d956845a342",
+                "https://tough-wombat-8.hooks.n8n.cloud/webhook/1c5a3ba4-8b0b-40b5-ad63-6d956845a342",
                 params={"query": user_input}
             )
             if response.status_code == 200:
