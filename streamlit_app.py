@@ -31,7 +31,7 @@ if st.button("Query"):
                 response = requests.get(
                     f"{base_url}/webhook/1c5a3ba4-8b0b-40b5-ad63-6d956845a342",
                     params={"query": user_input},
-                    headers={"X-TOKEN": "78093019A"}
+                    headers={"X-TOKEN": "akMAHGaeJKuMTIziibMBYHIg"}
                 )
                 if response.status_code == 200:
                     # Extract and display the 'Answer' field from the JSON response
@@ -45,3 +45,7 @@ if st.button("Query"):
             st.write("Cannot query without a valid base URL.")
     else:
         st.write("Please enter a paragraph to query.")
+
+# Display the version number at the bottom of the app
+st.markdown("---")
+st.text("Version: 1.0")
