@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 
 # Set the page title
-st.set_page_config(page_title="AI Assistant")
+st.set_page_config(page_title="Academic Support")
 
 # Add a title to the app
-st.title("AI Assistant")
+st.title("Academic Support")
 
 # Read the base URL from a local text file
 def get_base_url():
