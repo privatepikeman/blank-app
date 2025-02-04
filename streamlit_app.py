@@ -19,7 +19,7 @@ def get_base_url():
 base_url = get_base_url()
 
 # Create a text area for user input
-user_input = st.text_area("Enter your paragraph:", "", height=150)
+user_input = st.text_area("Enter your query:", "", height=150)
 
 # Add a button
 if st.button("Query"):
